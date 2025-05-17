@@ -1,0 +1,14 @@
+finance_snowflake:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: fa17772.me-central2.gcp
+      user: MUJIDON
+      password: "6122002Muji123456"
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: LOAN_DATASET
+      schema: LOAN_ANALYTICS
+      threads: 4
+      client_session_keep_alive: false

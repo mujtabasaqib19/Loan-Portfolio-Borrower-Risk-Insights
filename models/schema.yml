@@ -1,0 +1,9 @@
+sources:
+  - name: staging
+    database: LOAN_DATASET
+    schema: LOAN_ANALYTICS
+    tables:
+      - name: STAGING_LOANS
+      - name: STAGING_LOANS_PROD
+      - name: STAGING_BORROWERS
+      - name: STAGING_BORROWERS_PROD

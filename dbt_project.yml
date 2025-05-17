@@ -1,0 +1,16 @@
+name: finance_dbt
+version: '1.0'
+config-version: 2
+
+profile: finance_snowflake
+
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target"]
+
+models:
+  finance_dbt:
+    staging:
+      materialized: view     # ✅ staging as views
+    marts:
+      materialized: view     # ✅ marts as views to avoid deletion
