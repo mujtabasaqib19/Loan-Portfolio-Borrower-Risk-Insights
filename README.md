@@ -10,7 +10,7 @@ This project delivers a complete **Data Engineering and Business Intelligence** 
 
 ## 📊 Final Dashboard
 
-![Loan Dashboard](.assests/dashbard.png)
+![Loan Dashboard](/assests/dashbard.png)
 
 > **Insights Covered:**
 
