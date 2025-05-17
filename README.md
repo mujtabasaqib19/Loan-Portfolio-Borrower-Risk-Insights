@@ -25,6 +25,8 @@ This project delivers a complete **Data Engineering and Business Intelligence** 
 
 ## 🔧 Architecture Overview
 
+![Data Architecture](/assests/Data Pipeline.png)
+
 | Layer             | Tool             | Role                                 |
 | ----------------- | ---------------- | ------------------------------------ |
 | 🗂 Ingestion      | Airflow + Python | Load CSV to PostgreSQL (staging)     |
