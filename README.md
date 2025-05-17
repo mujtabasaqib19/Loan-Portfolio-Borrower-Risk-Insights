@@ -24,8 +24,7 @@ This project delivers a complete **Data Engineering and Business Intelligence** 
 ---
 
 ## 🔧 Architecture Overview
-
-![Data Architecture](/assests/Data Pipeline.png)
+![Data Architecture](/assests/datapipeline.png)
 
 | Layer             | Tool             | Role                                 |
 | ----------------- | ---------------- | ------------------------------------ |
